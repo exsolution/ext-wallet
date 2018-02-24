@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/exsolution_bg.qm</file>
+        <file alias="de">locale/exsolution_de.qm</file>
+        <file alias="en">locale/exsolution_en.qm</file>
+        <file alias="es">locale/exsolution_es.qm</file>
+        <file alias="fi">locale/exsolution_fi.qm</file>
+        <file alias="fr">locale/exsolution_fr.qm</file>
+        <file alias="it">locale/exsolution_it.qm</file>
+        <file alias="ja">locale/exsolution_ja.qm</file>
+        <file alias="pl">locale/exsolution_pl.qm</file>
+        <file alias="pt">locale/exsolution_pt.qm</file>
+        <file alias="ru">locale/exsolution_ru.qm</file>
+        <file alias="sk">locale/exsolution_sk.qm</file>
+        <file alias="sv">locale/exsolution_sv.qm</file>
+        <file alias="vi">locale/exsolution_vi.qm</file>
+        <file alias="zh_CN">locale/exsolution_zh_CN.qm</file>
+        <file alias="zh_TW">locale/exsolution_zh_TW.qm</file>
+    </qresource>
+</RCC>

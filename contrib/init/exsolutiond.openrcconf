@@ -1,0 +1,26 @@
+# /etc/conf.d/exsolutiond: config file for /etc/init.d/exsolutiond
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/exsolution/exsolution.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/exsolutiond"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/exsolutiond.pid"
+
+# Where to write exsolutiond data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/exsolutiond"
+
+# User and group to own exsolutiond process
+#BITCOIND_USER="exsolution"
+#BITCOIND_GROUP="exsolution"
+
+# Path to exsolutiond executable
+#BITCOIND_BIN="/usr/bin/exsolutiond"
+
+# Nice value to run exsolutiond under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

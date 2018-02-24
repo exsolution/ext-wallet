@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Exsolution
+Comment=Exsolution P2P Cryptocurrency
+Comment[fr]=Exsolution, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Exsolution, eşten eşe kriptografik sanal para birimi
+Exec=exsolution-qt %u
+Terminal=false
+Type=Application
+Icon=exsolution128
+MimeType=x-scheme-handler/exsolution;
+Categories=Office;Finance;
