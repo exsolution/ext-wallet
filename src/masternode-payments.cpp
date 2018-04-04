@@ -300,8 +300,8 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
         }
     }
 
-    CAmount blockValue = GetBlockValue(pindexPrev->nHeight +1 );
-	CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight +1, blockValue);
+    CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
+	CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue);
 
     if (hasPayment) {
         if (fProofOfStake) {
@@ -315,8 +315,15 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
             txNew.vout[i].scriptPubKey = payee;
             txNew.vout[i].nValue = masternodePayment;
 
-            //subtract mn payment from the stake reward
-            txNew.vout[i - 1].nValue -= masternodePayment;
+            //subtract mn payment evenly from the stake reward outputs
+            unsigned int nStakeOutputs = i - 1;
+            for (int outIndex = 1; outIndex <= nStakeOutputs; outIndex++) {
+                txNew.vout[outIndex].nValue -= masternodePayment / nStakeOutputs;
+            }
+            for (int outIndex = 1; outIndex <= (masternodePayment % nStakeOutputs); outIndex++) {
+                txNew.vout[outIndex].nValue -= 1;
+            }
+            
 			LogPrintf("fProofOfStake: masternode to pay value %u\n", masternodePayment);
         } else {
             txNew.vout.resize(2);
@@ -535,7 +542,7 @@ bool CMasternodeBlockPayees::IsTransactionValid(const CTransaction& txNew)
         nMasternode_Drift_Count = mnodeman.size() + Params().MasternodeCountDrift();
     }
 
-CAmount requiredMasternodePayment = GetMasternodePayment(nBlockHeight, nReward, nMasternode_Drift_Count);
+    CAmount requiredMasternodePayment = GetMasternodePayment(nBlockHeight, nReward, nMasternode_Drift_Count);
 
     //require at least 6 signatures
     BOOST_FOREACH (CMasternodePayee& payee, vecPayments)
