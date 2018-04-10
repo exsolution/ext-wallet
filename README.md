@@ -40,17 +40,17 @@ Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=29
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stake</th>
 <tr><td>startup</td><td>301-2016</td><td>0.075 EXT</td><td>60% </td><td>40% </td></tr>
 <tr><td>Phase 1</td><td>2016-19710</td><td>75 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 2</td><td>19711-39420</td><td>150 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 3</td><td>39421-78840</td><td>300 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 4</td><td>78841-157680</td><td>150 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 5</td><td>157681-236520</td><td>74 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 6</td><td>236521-315360</td><td>64 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 7</td><td>315361-394200</td><td>60 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 8</td><td>394201-473040</td><td>48 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 9</td><td>473041-551880</td><td>36 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 10</td><td>551881-630720</td><td>24 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 11</td><td>630721-709560</td><td>14 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 12</td><td>709561-788400</td><td>8 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 13</td><td>788401-867240</td><td>6 EXT</td><td>60% </td><td>40% </td></tr>
-<tr><td>Phase 14</td><td>867241+</td><td>3 EXT</td><td>60% </td><td>40% </td></tr>
+<tr><td>Phase 2</td><td>19711-39420</td><td>100 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 3</td><td>39421-78840</td><td>300 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 4</td><td>78841-157680</td><td>150 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 5</td><td>157681-236520</td><td>74 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 6</td><td>236521-315360</td><td>64 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 7</td><td>315361-394200</td><td>60 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 8</td><td>394201-473040</td><td>48 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 9</td><td>473041-551880</td><td>36 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 10</td><td>551881-630720</td><td>24 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 11</td><td>630721-709560</td><td>14 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 12</td><td>709561-788400</td><td>8 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 13</td><td>788401-867240</td><td>6 EXT</td><td>90% </td><td>10% </td></tr>
+<tr><td>Phase 14</td><td>867241+</td><td>3 EXT</td><td>90% </td><td>10% </td></tr>
 </table>
