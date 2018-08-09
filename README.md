@@ -2,7 +2,7 @@ Copyright © 2009-2018 The Bitcoin Core Developers
 Copyright © 2015-2018 The Dash, PIVX, and BTDX Developers  
 Copyright © 2018 The Exsolution Core Developers  
 
-Exsolution Core integration/staging repository
+Exsolution Core repository
 =====================================
 
 Exsolution is a cutting edge cryptocurrency:
