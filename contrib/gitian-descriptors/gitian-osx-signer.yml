@@ -1,7 +1,7 @@
 ---
 name: "exsolution-dmg-signer"
 suites:
-- "trusty"
+- "bionic"
 architectures:
 - "amd64"
 packages:

@@ -2,7 +2,7 @@
 name: "exsolution-win-2.3"
 enable_cache: true
 suites:
-- "trusty"
+- "bionic"
 architectures:
 - "amd64"
 packages: 
@@ -21,6 +21,7 @@ packages:
 - "zip"
 - "ca-certificates"
 - "python"
+- "rename"
 remotes:
 - "url": "https://github.com/exsolution/ext-wallet.git"
   "dir": "exsolution"
